@@ -1,0 +1,33 @@
+{
+  "name": "byldd-rn-google-signin",
+  "version": "1.0.0",
+  "description": "Library for google signin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi2718/Byldd-rn-google-signin.git"
+  },
+  "keywords": [
+    "byldd-rn-google-signin"
+  ],
+  "author": "Abhi2718 <abhi2718@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhi2718/Byldd-rn-google-signin/issues"
+  },
+  "homepage": "https://github.com/abhi2718/Byldd-rn-google-signin#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@react-native-firebase/auth": "^21.6.1",
+    "@react-native-google-signin/google-signin": "^13.1.0"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
