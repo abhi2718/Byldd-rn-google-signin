@@ -1,7 +1,7 @@
 {
-  "name": "byldd-rn-google-signin",
-  "version": "1.0.4",
-  "description": "Library for google signin",
+  "name": "byldd-expo-google-signin",
+  "version": "1.0.1",
+  "description": "Library for google signin for expo projects.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
