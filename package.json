@@ -1,6 +1,6 @@
 {
   "name": "byldd-expo-google-signin",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Library for google signin for expo projects.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/abhi2718/Byldd-rn-google-signin.git"
   },
   "keywords": [
-    "byldd-rn-google-signin"
+    "byldd-expo-google-signin"
   ],
   "author": "Abhi2718 <abhi2718@gmail.com>",
   "license": "MIT",
