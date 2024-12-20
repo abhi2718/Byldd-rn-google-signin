@@ -1,6 +1,6 @@
 {
   "name": "byldd-rn-google-signin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for google signin",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,6 +24,7 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^21.6.1",
     "@react-native-firebase/auth": "^21.6.1",
     "@react-native-google-signin/google-signin": "^13.1.0"
   },
