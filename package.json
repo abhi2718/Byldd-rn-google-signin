@@ -1,6 +1,6 @@
 {
   "name": "byldd-rn-google-signin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Library for google signin",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
