@@ -110,6 +110,7 @@ npx expo prebuild
 ### **7. Usage Example**
 Here is an example of how to use the **byldd-rn-google-signin** package in your project:
 
+Note: Make sure to pick the client_id with client_type: 3 from your google-services.json file.
 ```typescript
 import { GoogleSigninService } from "byldd-rn-google-signin";
 
