@@ -1,6 +1,6 @@
-# byldd-expo-google-signin
+# expo-byldd-google-signin
 
-This README provides a step-by-step guide to set up Google Sign-In for React Native projects using the **byldd-expo-google-signin** package.
+This README provides a step-by-step guide to set up Google Sign-In for React Native projects using the **expo-byldd-google-signin** package.
 
 ---
 
@@ -94,7 +94,7 @@ Add the following plugins to the `app.json` file:
 ### **5. Install Required Packages**
 Run the following command to install the required npm packages:
 ```bash
-npm install @react-native-firebase/app @react-native-firebase/auth @react-native-google-signin/google-signin expo-build-properties byldd-expo-google-signin
+npm install @react-native-firebase/app @react-native-firebase/auth @react-native-google-signin/google-signin expo-build-properties expo-byldd-google-signin
 ```
 
 ---
@@ -108,11 +108,11 @@ npx expo prebuild
 ---
 
 ### **7. Usage Example**
-Here is an example of how to use the **byldd-expo-google-signin** package in your project:
+Here is an example of how to use the **expo-byldd-google-signin** package in your project:
 
 Note: Make sure to pick the client_id with client_type: 3 from your google-services.json file.
 ```typescript
-import { GoogleSigninService } from "byldd-expo-google-signin";
+import { GoogleSigninService } from "expo-byldd-google-signin";
 
 const handleGoogleSignin = async (webClientId: string) => {
   try {
@@ -126,5 +126,5 @@ const handleGoogleSignin = async (webClientId: string) => {
 
 ---
 
-With these steps, you should be able to successfully set up Google Sign-In in your React Native project using the **byldd-expo-google-signin** package.
+With these steps, you should be able to successfully set up Google Sign-In in your React Native project using the **expo-byldd-google-signin** package.
 
